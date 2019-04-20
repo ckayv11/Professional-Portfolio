@@ -56,6 +56,12 @@ hr {
     font-size: 15px;
 }
 
+.social-icons {
+    float: right;
+    margin-right: 10px;
+    color: #455a64;
+}
+
 /* The sidebar menu */
 .sidebar {
     height: 100%; /* 100% Full-height */
@@ -125,8 +131,27 @@ margin-right: 5px;
 
 .tech-body {
     color: #99B2A0;
-    margin-bottom: 50px;
+    margin: 50px 0 100px 0;
 }
+
+.work-section {
+    margin: 50px 50px 100px 50px;
+}
+
+.block-quote {
+    margin: 50px;
+}
+
+.fa-quote-left {
+    color: #99B2A0;
+    margin-right: 10px;
+}
+
+.project-card {
+    border: 1px solid #D8D8D8;
+    margin: 1rem 0.5rem;
+}
+
 
 
   
@@ -144,7 +169,7 @@ margin-right: 5px;
 		font-size: 40px;
 	}
 
-	p, h5 {
+	p, h5, h6 {
 		font-size: 15px;
     }
 
@@ -172,6 +197,21 @@ margin-right: 5px;
         text-align: left;
         padding: 20px;
         font-size: 12px;
+    }
+
+    .social-icons {
+        float: right;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: #455a64;
+    }
+
+    .work-section, .tech-body {
+        margin: 10px 10px 75px 10px;
+    }
+
+    .block-quote {
+        margin: 10px;
     }
 
 	}
