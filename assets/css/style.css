@@ -46,7 +46,7 @@ hr {
 
 /* The footer */
 .footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -135,7 +135,7 @@ margin-right: 5px;
 }
 
 .work-section {
-    margin: 50px 50px 100px 50px;
+    margin: 50px 50px 50px 50px;
 }
 
 .block-quote {
@@ -149,10 +149,7 @@ margin-right: 5px;
 
 .project-card {
     border: 1px solid #D8D8D8;
-}
-
-.clearfix {
-    overflow: auto;
+    margin-bottom: 30px;
 }
 
 /*Media Queries*/
@@ -188,7 +185,7 @@ margin-right: 5px;
     }
 
     .footer {
-        position: fixed;
+        /* position: fixed; */
         left: 0;
         bottom: 0;
         width: 100%;
@@ -205,8 +202,12 @@ margin-right: 5px;
         color: #455a64;
     }
 
-    .work-section, .tech-body {
-        margin: 10px 10px 75px 10px;
+    .tech-body {
+        margin: 10px 10px 30px 10px;
+    }
+
+    .work-section {
+        margin: 10px 10px 0 10px;
     }
 
     .block-quote {
