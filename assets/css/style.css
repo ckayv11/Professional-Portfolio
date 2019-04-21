@@ -6,6 +6,13 @@ body, html {
     line-height: 1.6;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+}
+
 p {
     font-size: 18px;
 }
@@ -167,7 +174,7 @@ margin-right: 5px;
 }
 
 .contact-body {
-    padding: 50px;
+    padding: 50px 30px 100px 30px;
 }
 
 /*Media Queries*/
@@ -186,10 +193,6 @@ margin-right: 5px;
 
 	p, h5, h6 {
         font-size: 15px;
-        font-family: roboto, sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        line-height: 1.6;
     }
 
     h4 {
@@ -238,7 +241,7 @@ margin-right: 5px;
     }
 
     .contact-body {
-        margin: 0;
+        padding: 50px 30px 75px 30px;
     }
 
 	}
