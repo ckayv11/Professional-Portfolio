@@ -25,6 +25,20 @@ hr {
     margin-top: 40px;
 }
 
+/* The background image */
+.background-image { 
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/coffeelaptop.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
 /* The hero image */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/coffeelaptop.jpeg");
@@ -150,6 +164,10 @@ margin-right: 5px;
 .project-card {
     border: 1px solid #D8D8D8;
     margin-bottom: 30px;
+}
+
+.contact-body {
+    padding: 50px;
 }
 
 /*Media Queries*/
