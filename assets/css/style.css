@@ -179,12 +179,17 @@ margin-right: 5px;
 }
 
 @media only screen and (max-width: 600px) {
+
 	h1 {
 		font-size: 40px;
 	}
 
 	p, h5, h6 {
-		font-size: 15px;
+        font-size: 15px;
+        font-family: roboto, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 1.6;
     }
 
     h4 {
@@ -232,8 +237,8 @@ margin-right: 5px;
         margin: 10px;
     }
 
-    .contact-body h5 {
-        font-size: 20px;
+    .contact-body {
+        margin: 0;
     }
 
 	}
