@@ -65,6 +65,14 @@ hr {
   color: white;
 }
 
+.hero-text {
+    animation: caption 2s;
+}
+
+@keyframes caption {
+    0%  {top:-200px;}
+  }
+
 /* The footer */
 .footer {
     /* position: fixed; */
@@ -197,8 +205,10 @@ margin-right: 5px;
 
 @media only screen and (max-width: 600px) {
 
-	h1 {
-		font-size: 40px;
+	h1, .name {
+        font-size: 40px;
+        margin: 0;
+        width: 500px;
 	}
 
 	p, h5, h6 {
@@ -247,12 +257,11 @@ margin-right: 5px;
     }
 
     .block-quote {
-        margin: 10px;
+        margin: 30px;
     }
 
     .contact-body {
         padding: 50px 30px 75px 30px;
     }
-
 
 }
