@@ -19,6 +19,7 @@ p {
 
 hr {
     border: 1px solid #e0e0e0;
+    width: 90%;
 }
 
 .btn {
@@ -205,10 +206,15 @@ margin-right: 5px;
 
 @media only screen and (max-width: 600px) {
 
-	h1, .name {
+	h1 {
         font-size: 40px;
         margin: 0;
-        width: 500px;
+    }
+    
+    .name {
+        font-size: 35px;
+        margin: 0;
+        width: 300px;
 	}
 
 	p, h5, h6 {
