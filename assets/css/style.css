@@ -74,9 +74,46 @@ hr {
     0%  {top:-200px;}
   }
 
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.navBar li {
+    float: right;
+    font-size: 20px;
+}
+
+.navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.navBar li a:hover {
+    background-color: #111;
+}
+
+
 /* The footer */
 .footer {
     /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eceff1;
+    text-align: left;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.contactFooter {
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -180,17 +217,26 @@ margin-right: 5px;
 .project-card {
     border: 1px solid #D8D8D8;
     margin-bottom: 50px;
-    height: 380px;
+    height: auto;
 }
 
-.project-image {
+.card-image {
   width: 100%;
-  height: 300px;
+  height: 280px;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 }
+
+.project-image {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 
 .contact-body {
     padding: 50px 30px 100px 30px;
@@ -247,6 +293,17 @@ margin-right: 5px;
         font-size: 12px;
     }
 
+    .contactFooter {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #eceff1;
+        text-align: left;
+        padding: 20px;
+        font-size: 12px;
+    }
+
     .social-icons {
         float: right;
         margin-left: 2px;
@@ -268,6 +325,10 @@ margin-right: 5px;
 
     .contact-body {
         padding: 50px 30px 75px 30px;
+    }
+
+    .navBar {
+        display: none;
     }
 
 }
